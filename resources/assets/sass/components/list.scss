@@ -1,0 +1,17 @@
+ol, ul {
+	font-size: rem(12);
+	margin-top: rem(8);
+	margin-bottom: rem(12);
+	ol, ul {
+		margin-bottom: rem(12);
+		li {
+			margin-left: rem(-10);
+		}
+	}
+	li {
+		font-size: rem(12);
+		margin-left: rem(-12);
+	}
+}
+
+

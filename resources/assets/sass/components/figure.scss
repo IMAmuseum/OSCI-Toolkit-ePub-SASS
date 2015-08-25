@@ -1,0 +1,38 @@
+figcaption {
+	p {
+		page-break-before: avoid;
+		page-break-inside: avoid;
+		padding-top: rem(4);
+		margin-bottom: rem(24);
+		font-size: rem(8);
+	}
+}
+
+figure {
+	max-height: 90%;
+	max-width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	max-height: 50%;
+	max-width: 100%;
+	padding-top: rem(12);
+	padding-bottom: rem(4);
+}
+
+[data-position="plate"] {
+	img {
+		max-height: 90%;
+		max-width: 100%;
+	}
+	figcaption {
+		p {
+			padding-top: 0;
+			margin-bottom: 0;
+		}
+	}
+	page-break-before: always;
+	page-break-after: always;
+}

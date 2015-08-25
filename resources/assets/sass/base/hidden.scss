@@ -1,0 +1,28 @@
+section#figures {
+	display: none !important;
+	visibility: hidden;
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+}
+
+section#osci_tk_title {
+	display: none;
+	visibility: hidden;
+}
+
+section#subtitle {
+	display: none;
+	visibility: hidden;
+}
+
+section#body {
+	border-bottom: 1px solid black;
+}
+
+.figure_number {
+	display: none;
+	visibility: hidden;
+}

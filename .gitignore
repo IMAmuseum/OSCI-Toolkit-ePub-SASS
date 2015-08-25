@@ -1,0 +1,8 @@
+node_modules
+*.xhtml
+toc.ncx
+package.opf
+resources/image_assets
+resources/video
+resources/*.jpg
+

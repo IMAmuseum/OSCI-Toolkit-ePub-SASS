@@ -1,0 +1,239 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+/*
+/ Resets
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  /* Note kindle hates margin:0 ! (or margin-left or margin-top set) it inserts newlines galore */
+  /* margin: 0 */
+  margin-right: 0;
+  padding: 0;
+  border: 0;
+  border-width: 0;
+  font-size: 100%;
+  /* font: inherit */
+  vertical-align: baseline; }
+
+ul, ol, li {
+  font-size: 100%; }
+
+body {
+  page-break-after: always;
+  -epub-hyphens: auto; }
+
+body {
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  page-break-after: avoid; }
+
+section#body > p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  hyphenate-after: 3;
+  hyphenate-before: 3;
+  hyphenate-lines: 2;
+  -webkit-hyphenate-after: 3;
+  -webkit-hyphenate-before: 3;
+  -webkit-hyphenate-lines: 2;
+  margin: 0;
+  orphans: 2;
+  widows: 2;
+  margin-bottom: 0.9375em;
+  font-size: 0.75rem; }
+
+h1 > p, h2 > p, h3 > p {
+  page-break-before: avoid; }
+
+h1.title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 0.3125rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.3125rem;
+  padding-bottom: 0.5rem;
+  font-weight: normal;
+  page-break-after: avoid; }
+
+h2.subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
+  page-break-after: avoid; }
+
+div.authors {
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  page-break-after: avoid; }
+
+h2.subhead {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  page-break-after: avoid; }
+
+h3.subsub {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  page-break-after: avoid; }
+
+.footnote-reference {
+  font-size: 0.5rem;
+  color: #fc0c1b;
+  margin-left: 0.1875rem;
+  vertical-align: super; }
+
+blockquote {
+  background-color: #f3cecf;
+  border-right: 0.1875rem solid #fc0c1b;
+  border-left: 0.1875rem solid #fc0c1b;
+  margin: 0.9375rem 0;
+  padding: 0.5rem 0.9375rem;
+  font-size: 0.75rem; }
+  blockquote img {
+    display: block;
+    max-width: 100%;
+    max-height: 50%; }
+  blockquote video {
+    max-width: 100%;
+    padding-top: 0.9375rem; }
+  blockquote div.authors {
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0;
+    border-bottom: none;
+    text-align: left; }
+  blockquote h2.subhead {
+    page-break-after: avoid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0; }
+  blockquote p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    hyphenate-after: 3;
+    hyphenate-before: 3;
+    hyphenate-lines: 2;
+    -webkit-hyphenate-after: 3;
+    -webkit-hyphenate-before: 3;
+    -webkit-hyphenate-lines: 2;
+    margin: 0;
+    text-align: justify;
+    orphans: 2;
+    widows: 2;
+    margin-bottom: 0.9375em;
+    font-size: 0.75rem; }
+
+ol, ul {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem; }
+  ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0.75rem; }
+    ol ol li, ol ul li, ul ol li, ul ul li {
+      margin-left: -0.625rem; }
+  ol li, ul li {
+    font-size: 0.75rem;
+    margin-left: -0.75rem; }
+
+figcaption p {
+  page-break-before: avoid;
+  page-break-inside: avoid;
+  padding-top: 0.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.5rem; }
+
+figure {
+  max-height: 90%;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+img {
+  max-height: 50%;
+  max-width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem; }
+
+[data-position="plate"] {
+  page-break-before: always;
+  page-break-after: always; }
+  [data-position="plate"] img {
+    max-height: 90%;
+    max-width: 100%; }
+  [data-position="plate"] figcaption p {
+    padding-top: 0;
+    margin-bottom: 0; }
+
+body.node-51 #body {
+  height: 100%;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border-bottom: none; }
+
+body.node-51 figure#fig-52-1 figcaption {
+  font-size: 0.875rem; }
+
+body.node-52 #body blockquote {
+  margin-top: 0; }
+
+body.node-69 section > p {
+  font-size: 0.875rem;
+  padding-left: 2rem;
+  text-indent: -2rem; }
+
+body.node-65 {
+  page-break-before: always;
+  page-break-after: always; }
+  body.node-65 img {
+    max-height: 95%;
+    max-width: 100%; }
+
+section#figures {
+  display: none !important;
+  visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+section#osci_tk_title {
+  display: none;
+  visibility: hidden; }
+
+section#subtitle {
+  display: none;
+  visibility: hidden; }
+
+section#body {
+  border-bottom: 1px solid black; }
+
+.figure_number {
+  display: none;
+  visibility: hidden; }
+
+/*# sourceMappingURL=rr_2_0.css.map */

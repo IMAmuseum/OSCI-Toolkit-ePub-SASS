@@ -1,0 +1,43 @@
+h1.title {
+	text-transform: uppercase;
+	font-size: rem(16);
+	padding-bottom: rem(5);
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: rem(5);
+	padding-bottom: rem(8);
+	font-weight: normal;
+	page-break-after: avoid;
+}
+h2.subtitle {
+	text-align: center;
+	font-size: rem(32);
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: rem(16);
+	border-bottom: 1px solid black;
+	page-break-after: avoid;
+}
+div.authors {
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-size: rem(12);
+	font-style: italic;
+	padding-bottom: rem(16);
+	margin-bottom: rem(16);
+	page-break-after: avoid;
+}
+
+h2.subhead {
+	font-size: rem(16);
+	font-weight: bold;
+	margin-bottom: 0;
+	page-break-after: avoid;
+}
+
+h3.subsub {
+	font-size: rem(12);
+	font-weight: bold;
+	margin-bottom: 0;
+	page-break-after: avoid;
+}
