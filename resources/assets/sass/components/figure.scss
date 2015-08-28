@@ -2,7 +2,7 @@ figcaption {
 	p {
 		page-break-before: avoid;
 		page-break-inside: avoid;
-		padding-top: rem(4);
+		padding: 0;
 		margin-bottom: rem(24);
 		font-size: rem(8);
 	}
@@ -22,15 +22,18 @@ img {
 	padding-bottom: rem(4);
 }
 
-[data-position="plate"] {
+#fig-51-0, #fig-52-0, #fig-53-0, #fig-54-0, #fig-55-0, #fig-56-0, #fig-57-0, #fig-58-0, #fig-59-0,
+#fig-60-0, #fig-61-0, #fig-62-0, #fig-63-0, #fig-64-0, #fig-65-0, #fig-66-0, #fig-67-0, #fig-68-0,
+#fig-69-0, #fig-70-0, #fig-71-0 {
 	img {
 		max-height: 90%;
 		max-width: 100%;
 	}
+
 	figcaption {
 		p {
-			padding-top: 0;
-			margin-bottom: 0;
+			padding: 0;
+			margin: 0;
 		}
 	}
 	page-break-before: always;

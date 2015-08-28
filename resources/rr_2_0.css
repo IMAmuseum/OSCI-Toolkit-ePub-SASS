@@ -137,11 +137,12 @@ blockquote {
     -webkit-hyphenate-before: 3;
     -webkit-hyphenate-lines: 2;
     margin: 0;
-    text-align: justify;
     orphans: 2;
     widows: 2;
     margin-bottom: 0.9375em;
     font-size: 0.75rem; }
+  blockquote figcaption p {
+    padding-top: 0.25rem; }
 
 ol, ul {
   font-size: 0.75rem;
@@ -158,7 +159,7 @@ ol, ul {
 figcaption p {
   page-break-before: avoid;
   page-break-inside: avoid;
-  padding-top: 0.25rem;
+  padding: 0;
   margin-bottom: 1.5rem;
   font-size: 0.5rem; }
 
@@ -174,15 +175,21 @@ img {
   padding-top: 0.75rem;
   padding-bottom: 0.25rem; }
 
-[data-position="plate"] {
+#fig-51-0, #fig-52-0, #fig-53-0, #fig-54-0, #fig-55-0, #fig-56-0, #fig-57-0, #fig-58-0, #fig-59-0,
+#fig-60-0, #fig-61-0, #fig-62-0, #fig-63-0, #fig-64-0, #fig-65-0, #fig-66-0, #fig-67-0, #fig-68-0,
+#fig-69-0, #fig-70-0, #fig-71-0 {
   page-break-before: always;
   page-break-after: always; }
-  [data-position="plate"] img {
+  #fig-51-0 img, #fig-52-0 img, #fig-53-0 img, #fig-54-0 img, #fig-55-0 img, #fig-56-0 img, #fig-57-0 img, #fig-58-0 img, #fig-59-0 img,
+  #fig-60-0 img, #fig-61-0 img, #fig-62-0 img, #fig-63-0 img, #fig-64-0 img, #fig-65-0 img, #fig-66-0 img, #fig-67-0 img, #fig-68-0 img,
+  #fig-69-0 img, #fig-70-0 img, #fig-71-0 img {
     max-height: 90%;
     max-width: 100%; }
-  [data-position="plate"] figcaption p {
-    padding-top: 0;
-    margin-bottom: 0; }
+  #fig-51-0 figcaption p, #fig-52-0 figcaption p, #fig-53-0 figcaption p, #fig-54-0 figcaption p, #fig-55-0 figcaption p, #fig-56-0 figcaption p, #fig-57-0 figcaption p, #fig-58-0 figcaption p, #fig-59-0 figcaption p,
+  #fig-60-0 figcaption p, #fig-61-0 figcaption p, #fig-62-0 figcaption p, #fig-63-0 figcaption p, #fig-64-0 figcaption p, #fig-65-0 figcaption p, #fig-66-0 figcaption p, #fig-67-0 figcaption p, #fig-68-0 figcaption p,
+  #fig-69-0 figcaption p, #fig-70-0 figcaption p, #fig-71-0 figcaption p {
+    padding: 0;
+    margin: 0; }
 
 body.node-51 #body {
   height: 100%;

@@ -51,10 +51,16 @@ blockquote {
 		-webkit-hyphenate-before: 3;
 		-webkit-hyphenate-lines: 2;
 		margin: 0;
-		text-align: justify;
 		orphans: 2;
 		widows: 2;
 		margin-bottom: em(15);
 		font-size: rem(12);
 	}
+
+	figcaption {
+		p {
+			padding-top: rem(4);
+		}
+	}
+
 }
