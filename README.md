@@ -1,4 +1,4 @@
-# OSCI-Toolkit-ePub-SASS
+# OSCI Toolkit ePub SASS
 A SASS starting point for OSCI ePub's.
 
 ##Compile SASS
